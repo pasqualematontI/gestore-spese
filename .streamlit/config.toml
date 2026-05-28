@@ -1,0 +1,16 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = false
+
+[client]
+# Nasconde il pulsante "Deploy" e la toolbar di Streamlit
+toolbarMode = "minimal"
+
+[theme]
+primaryColor = "#22c55e"
+backgroundColor = "#0c1017"
+secondaryBackgroundColor = "#1f2937"
+textColor = "#f9fafb"
+font = "sans serif"
