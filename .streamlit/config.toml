@@ -2,10 +2,11 @@
 gatherUsageStats = false
 
 [server]
-headless = false
+headless = true
+enableCORS = false
+enableXsrfProtection = false
 
 [client]
-# Nasconde il pulsante "Deploy" e la toolbar di Streamlit
 toolbarMode = "minimal"
 
 [theme]
